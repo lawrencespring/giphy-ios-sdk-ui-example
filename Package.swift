@@ -16,7 +16,16 @@ let package = Package(
             targets: ["GiphyUISDK"]),
         .library(
             name: "WebP",
-            targets: ["WebP"])
+            targets: ["WebP"]),
+        .library(
+            name: "WebPMux",
+            targets: ["WebPMux"]),
+        .library(
+            name: "WebPDemux",
+            targets: ["WebPDemux"]),
+        .library(
+            name: "WebPDecoder",
+            targets: ["WebPDecoder"])
     ],
     dependencies: [
         .package(url: "https://github.com/pinterest/PINCache.git", from: "1.2.0"),
