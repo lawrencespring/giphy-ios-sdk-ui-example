@@ -27,18 +27,27 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
        .binaryTarget(
             name: "GiphyCoreSDK",
-            url: "https://github.com/danieleforlani/Giphy/blob/main/GiphyCoreSDK.xcframework.zip",
-            checksum: "e8e0bfa1a61cf992048a4e3c5a4b98d79d45a9e58c3e0244b0d0a8e3d3c70974"
+            path: "Frameworks/GiphyCoreSDK.xcframework"
         ),
         .binaryTarget(
             name: "GiphyUISDK",
-            url: "https://github.com/danieleforlani/Giphy/blob/main/GiphyUISDK.xcframework.zip",
-            checksum: "06072cca4fe13327464c8472eb9e9ae86f75d56e0578753cdfe25e7219bbca5e"
+            path: "Frameworks/GiphyUISDK.xcframework"
         ),
         .binaryTarget(
             name: "WebP",
-            url: "https://github.com/danieleforlani/Giphy/blob/main/libwebp-1.1.0-ios-framework.zip",
-            checksum: "de1bd02e279b10721b3bd33c7e331e50322c0c00fff04d55fc9f9567e04b069d"
+            path: "Frameworks/WebP.xcframework"
+        ),
+        .binaryTarget(
+            name: "WebPMux",
+            path: "Frameworks/WebPMux.xcframework"
+        ),
+        .binaryTarget(
+            name: "WebPDemux",
+            path: "Frameworks/WebPDemux.xcframework"
+        ),
+        .binaryTarget(
+            name: "WebPDecoder",
+            path: "Frameworks/WebPDecoder.xcframework"
         ),
     ]
 )
