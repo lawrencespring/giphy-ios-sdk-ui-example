@@ -44,19 +44,19 @@ let package = Package(
         ),
         .binaryTarget(
             name: "WebP",
-            path: "Frameworks/libwebp-1.1.0-ios-framework/WebP.xcframework"
+            path: "Frameworks/WebP.xcframework"
         ),
         .binaryTarget(
             name: "WebPMux",
-            path: "Frameworks/libwebp-1.1.0-ios-framework/WebPMux.xcframework"
+            path: "Frameworks/WebPMux.xcframework"
         ),
         .binaryTarget(
             name: "WebPDemux",
-            path: "Frameworks/libwebp-1.1.0-ios-framework/WebPDemux.xcframework"
+            path: "Frameworks/WebPDemux.xcframework"
         ),
         .binaryTarget(
             name: "WebPDecoder",
-            path: "Frameworks/libwebp-1.1.0-ios-framework/WebPDecoder.xcframework"
+            path: "Frameworks/WebPDecoder.xcframework"
         ),
     ]
 )
