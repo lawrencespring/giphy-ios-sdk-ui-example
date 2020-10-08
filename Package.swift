@@ -18,7 +18,7 @@ let package = Package(
     dependencies: [
         .package(url: "https://github.com/pinterest/PINCache.git", from: "1.2.0"),
         .package(url: "https://github.com/onmyway133/DeepDiff.git", from: "2.3.1"),
-        .package(url: "https://github.com/awrencespring/WebP", from: "0.0.1")
+        .package(url: "https://github.com/lawrencespring/WebP", from: "0.0.2")
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
