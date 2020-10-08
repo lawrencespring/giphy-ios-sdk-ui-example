@@ -28,7 +28,7 @@ let package = Package(
        .binaryTarget(
             name: "GiphyCoreSDK",
             url: "https://github.com/lawrencespring/giphy-ios-sdk-ui-example/blob/master/GiphyCoreSDK.xcframework.zip",
-            checksum: "9007459a728321c5d80524e2bae67792d7ddd7bdc2d1dde7ae4dace10d700ba5"
+            checksum: "57124cfac23b341dabdc55e2e1d7b82c2ce407b2fef7a5eed23ba0072df6990d"
         ),
         .binaryTarget(
             name: "GiphyUISDK",
