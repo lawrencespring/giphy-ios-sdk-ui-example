@@ -28,17 +28,17 @@ let package = Package(
        .binaryTarget(
             name: "GiphyCoreSDK",
             url: "https://s3.amazonaws.com/sdk.mobile.giphy.com/SDK/2.0.4/GiphySDK.zip",
-            checksum: "42ffca59b601c8e1af56190efa040f7a573417a624e962c07661d28925b359be"
+            checksum: "57124cfac23b341dabdc55e2e1d7b82c2ce407b2fef7a5eed23ba0072df6990d"
         ),
         .binaryTarget(
             name: "GiphyUISDK",
             url: "https://s3.amazonaws.com/sdk.mobile.giphy.com/SDK/2.0.4/GiphySDK.zip",
-            checksum: "42ffca59b601c8e1af56190efa040f7a573417a624e962c07661d28925b359be"
+            checksum: "3ace2bac0e686e434aaf4d4207a51c5bfda636861678d10b4371c1c89896c8de"
         ),
         .binaryTarget(
             name: "WebP",
             url: "https://github.com/lawrencespring/giphy-ios-sdk-ui-example/blob/master/libwebp-1.1.0-ios-framework.zip",
-            checksum: "788a371f311e285c6dcf94d5fdaf047dec16e791c1cf8419e61acfc830d2acb3"
+            checksum: "9007459a728321c5d80524e2bae67792d7ddd7bdc2d1dde7ae4dace10d700ba5"
         ),
     ]
 )
