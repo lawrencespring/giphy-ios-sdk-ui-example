@@ -27,11 +27,13 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
        .binaryTarget(
             name: "GiphyCoreSDK",
-            url: "https://github.com/lawrencespring/giphy-ios-sdk-ui-example/blob/master/GiphyCoreSDK.xcframework.zip"
+            url: "https://github.com/lawrencespring/giphy-ios-sdk-ui-example/blob/master/GiphyCoreSDK.xcframework.zip",
+            checksum: "9007459a728321c5d80524e2bae67792d7ddd7bdc2d1dde7ae4dace10d700ba5"
         ),
         .binaryTarget(
             name: "GiphyUISDK",
-            url: "https://github.com/lawrencespring/giphy-ios-sdk-ui-example/blob/master/GiphyUISDK.xcframework.zip"
+            url: "https://github.com/lawrencespring/giphy-ios-sdk-ui-example/blob/master/GiphyUISDK.xcframework.zip",
+            checksum: "9007459a728321c5d80524e2bae67792d7ddd7bdc2d1dde7ae4dace10d700ba5"
         ),
         .binaryTarget(
             name: "WebP",
