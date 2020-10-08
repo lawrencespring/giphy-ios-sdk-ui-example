@@ -13,23 +13,12 @@ let package = Package(
             targets: ["GiphyCoreSDK"]),
         .library(
             name: "GiphyUISDK",
-            targets: ["GiphyUISDK"]),
-        .library(
-            name: "WebP",
-            targets: ["WebP"]),
-        .library(
-            name: "WebPMux",
-            targets: ["WebPMux"]),
-        .library(
-            name: "WebPDemux",
-            targets: ["WebPDemux"]),
-        .library(
-            name: "WebPDecoder",
-            targets: ["WebPDecoder"])
+            targets: ["GiphyUISDK"])
     ],
     dependencies: [
         .package(url: "https://github.com/pinterest/PINCache.git", from: "1.2.0"),
         .package(url: "https://github.com/onmyway133/DeepDiff.git", from: "2.3.1"),
+        .package(url: "https://github.com/danieleforlani/Giphy", from: "0.0.1")
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
@@ -41,22 +30,6 @@ let package = Package(
         .binaryTarget(
             name: "GiphyUISDK",
             path: "Frameworks/GiphyUISDK.xcframework"
-        ),
-        .binaryTarget(
-            name: "WebP",
-            path: "Frameworks/WebP.xcframework"
-        ),
-        .binaryTarget(
-            name: "WebPMux",
-            path: "Frameworks/WebPMux.xcframework"
-        ),
-        .binaryTarget(
-            name: "WebPDemux",
-            path: "Frameworks/WebPDemux.xcframework"
-        ),
-        .binaryTarget(
-            name: "WebPDecoder",
-            path: "Frameworks/WebPDecoder.xcframework"
-        ),
+        )
     ]
 )
