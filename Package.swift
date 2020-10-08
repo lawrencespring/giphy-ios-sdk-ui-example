@@ -37,7 +37,7 @@ let package = Package(
         ),
         .binaryTarget(
             name: "WebP",
-            url: "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.1.0-ios-framework.tar.gz",
+            url: "https://github.com/lawrencespring/giphy-ios-sdk-ui-example/blob/master/libwebp-1.1.0-ios-framework.zip",
             checksum: "The checksum of the ZIP archive that contains the XCFramework."
         ),
     ]
