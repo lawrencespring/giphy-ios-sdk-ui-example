@@ -26,7 +26,6 @@ let package = Package(
             name: "GiphyCoreSDKWrapper",
             dependencies: ["PINCache", "DeepDiff", "WebP", .target(name: "GiphyCoreSDK"), .target(name: "GiphyUISDK")],
             path: "GiphyCoreSDKWrapper"
-        ),path: "GiphyUISDKWrapper"
         ),
        .binaryTarget(
             name: "GiphyCoreSDK",
