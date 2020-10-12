@@ -10,10 +10,10 @@ let package = Package(
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
             name: "GiphyCoreSDK",
-            targets: ["GiphyCoreSDK"]),
+            targets: ["GiphyCoreSDKWrapper"]),
         .library(
             name: "GiphyUISDK",
-            targets: ["GiphyUISDK"])
+            targets: ["GiphyCoreSDKWrapper"])
     ],
     dependencies: [
         .package(url: "https://github.com/pinterest/PINCache.git", from: "1.2.0"),
@@ -24,12 +24,14 @@ let package = Package(
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
-            name: "GiphyCoreSDK",
-            dependencies: ["WebP", "PinCache", "DeepDiff"]
+            name: "GiphyCoreSDKWrapper",
+            dependencies: ["WebP", "PinCache", "DeepDiff"],
+            path: "GiphyCoreSDKWrapper"
         ),
         .target(
-            name: "GiphyUISDK",
-            dependencies: ["WebP", "PinCache", "DeepDiff"]
+            name: "GiphyUISDKWrapper",
+            dependencies: ["WebP", "PinCache", "DeepDiff"],
+            path: "GiphyCoreSDKWrapper"
         ),
        .binaryTarget(
             name: "GiphyCoreSDK",
