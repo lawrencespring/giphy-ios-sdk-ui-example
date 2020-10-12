@@ -24,14 +24,14 @@ let package = Package(
             name: "GiphyCoreSDKWrapper",
             dependencies: [.package(url: "https://github.com/pinterest/PINCache.git", from: "1.2.0"),
                            .package(url: "https://github.com/onmyway133/DeepDiff.git", from: "2.3.1"),
-                           .package(url: "https://github.com/lawrencespring/WebP", from: "0.0.2")]
+                           .package(url: "https://github.com/lawrencespring/WebP", from: "0.0.2")],
             path: "GiphyCoreSDKWrapper"
         ),
         .target(
             name: "GiphyUISDKWrapper",
             dependencies: [.package(url: "https://github.com/pinterest/PINCache.git", from: "1.2.0"),
                            .package(url: "https://github.com/onmyway133/DeepDiff.git", from: "2.3.1"),
-                           .package(url: "https://github.com/lawrencespring/WebP", from: "0.0.2"]
+                           .package(url: "https://github.com/lawrencespring/WebP", from: "0.0.2")],
             path: "GiphyCoreSDKWrapper"
         ),
        .binaryTarget(
