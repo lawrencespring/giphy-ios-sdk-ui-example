@@ -25,11 +25,13 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
        .binaryTarget(
             name: "GiphyCoreSDK",
-            path: "Frameworks/GiphyCoreSDK.xcframework"
+            path: "Frameworks/GiphyCoreSDK.xcframework",
+            dependencies: ["WebP", "PINCache", "DeepDiff"]
         ),
         .binaryTarget(
             name: "GiphyUISDK",
-            path: "Frameworks/GiphyUISDK.xcframework"
+            path: "Frameworks/GiphyUISDK.xcframework",
+            dependencies: ["WebP", "PINCache", "DeepDiff"]
         )
     ]
 )
