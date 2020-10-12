@@ -13,7 +13,7 @@ let package = Package(
             targets: ["GiphyCoreSDKWrapper"]),
         .library(
             name: "GiphyUISDK",
-            targets: ["GiphyCoreSDKWrapper"])
+            targets: ["GiphyUISDKWrapper"])
     ],
     dependencies: [.package(url: "https://github.com/pinterest/PINCache.git", from: "3.0.2"),
                    .package(url: "https://github.com/onmyway133/DeepDiff.git", from: "2.3.1"),
