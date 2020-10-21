@@ -6,13 +6,11 @@ import PackageDescription
 let package = Package(
     name: "GiphySDK",
     products: [
-        // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
             name: "GiphySKD",
             targets: ["GiphySDK"]),
     ],
-    dependencies: [
-    ],
+    dependencies: [],
     targets: [
         .target(
             name: "GiphySDK",
