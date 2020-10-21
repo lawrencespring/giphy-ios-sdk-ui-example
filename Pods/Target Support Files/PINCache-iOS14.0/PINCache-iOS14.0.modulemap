@@ -1,6 +1,0 @@
-framework module PINCache {
-  umbrella header "PINCache-iOS14.0-umbrella.h"
-
-  export *
-  module * { export * }
-}
