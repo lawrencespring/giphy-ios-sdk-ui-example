@@ -27,7 +27,6 @@
 /* Begin PBXFileReference section */
 		0E1D6421C2B509942F143E9A /* Pods-GiphySDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GiphySDK.release.xcconfig"; path = "Target Support Files/Pods-GiphySDK/Pods-GiphySDK.release.xcconfig"; sourceTree = "<group>"; };
 		222681D8253F48CA00CA21FA /* GiphyWrappers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiphyWrappers.swift; sourceTree = "<group>"; };
-		22882DF3254011F70005E6BD /* Giphy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Giphy.swift; sourceTree = "<group>"; };
 		22882E0A2540148D0005E6BD /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		22BB8BDA253EF02000A52F9C /* GiphySDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GiphySDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		22BB8BDD253EF02000A52F9C /* GiphySDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GiphySDK.h; sourceTree = "<group>"; };
@@ -73,21 +72,12 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		22882DF2254011F70005E6BD /* Giphy */ = {
-			isa = PBXGroup;
-			children = (
-				22882DF3254011F70005E6BD /* Giphy.swift */,
-			);
-			path = Giphy;
-			sourceTree = "<group>";
-		};
 		22BB8BD0253EF02000A52F9C = {
 			isa = PBXGroup;
 			children = (
 				22882E0A2540148D0005E6BD /* Package.swift */,
 				22BB8BDC253EF02000A52F9C /* GiphySDK */,
 				22BB8BE7253EF02000A52F9C /* GiphySDKTests */,
-				22882DF2254011F70005E6BD /* Giphy */,
 				22BB8BDB253EF02000A52F9C /* Products */,
 				1D58A606C2700FB988241462 /* Pods */,
 				88C5D90191127196F1CB4C46 /* Frameworks */,
