@@ -3,42 +3,78 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		222681D9253F48CA00CA21FA /* GiphyWrappers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222681D8253F48CA00CA21FA /* GiphyWrappers.swift */; };
-		22BB8BE4253EF02000A52F9C /* GiphySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BB8BDA253EF02000A52F9C /* GiphySDK.framework */; };
-		22BB8BE9253EF02000A52F9C /* GiphySDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BB8BE8253EF02000A52F9C /* GiphySDKTests.swift */; };
 		22BB8BEB253EF02000A52F9C /* GiphySDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BB8BDD253EF02000A52F9C /* GiphySDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F7ACF6F7129C4ADEAF2046EF /* Pods_GiphySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E85F04AB5612B8670CE5C2F0 /* Pods_GiphySDK.framework */; };
+		22BD8DFE254085D6005F0675 /* WebPMux.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BD8DE9254085D6005F0675 /* WebPMux.framework */; };
+		22BD8E03254085D6005F0675 /* WebPDecoder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BD8DEF254085D6005F0675 /* WebPDecoder.framework */; };
+		22BD8E05254085D6005F0675 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 22BD8DF1254085D6005F0675 /* README */; };
+		22BD8E09254085D6005F0675 /* WebPDemux.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BD8DF6254085D6005F0675 /* WebPDemux.framework */; };
+		22BD8E1225408601005F0675 /* WebPMux.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BD8DF8254085D6005F0675 /* WebPMux.xcframework */; };
+		22BD8E1325408601005F0675 /* WebPMux.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 22BD8DF8254085D6005F0675 /* WebPMux.xcframework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		22BD8E1725408605005F0675 /* WebPDemux.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BD8DFA254085D6005F0675 /* WebPDemux.xcframework */; };
+		22BD8E1825408605005F0675 /* WebPDemux.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 22BD8DFA254085D6005F0675 /* WebPDemux.xcframework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		22BD8E1B25408608005F0675 /* WebPDecoder.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BD8DF9254085D6005F0675 /* WebPDecoder.xcframework */; };
+		22BD8E1C25408608005F0675 /* WebPDecoder.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 22BD8DF9254085D6005F0675 /* WebPDecoder.xcframework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		22BD8E1F2540860B005F0675 /* WebP.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BD8DFB254085D6005F0675 /* WebP.xcframework */; };
+		22BD8E202540860B005F0675 /* WebP.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 22BD8DFB254085D6005F0675 /* WebP.xcframework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		22BD8E232540860E005F0675 /* GiphyUISDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BD8DFD254085D6005F0675 /* GiphyUISDK.xcframework */; };
+		22BD8E242540860E005F0675 /* GiphyUISDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 22BD8DFD254085D6005F0675 /* GiphyUISDK.xcframework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		22BD8E2525408610005F0675 /* GiphyCoreSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BD8DFC254085D6005F0675 /* GiphyCoreSDK.xcframework */; };
+		22BD8E2625408610005F0675 /* GiphyCoreSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 22BD8DFC254085D6005F0675 /* GiphyCoreSDK.xcframework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		22BB8BE5253EF02000A52F9C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 22BB8BD1253EF02000A52F9C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 22BB8BD9253EF02000A52F9C;
-			remoteInfo = GiphySDK;
+/* Begin PBXCopyFilesBuildPhase section */
+		22BD8E1425408601005F0675 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				22BD8E1C25408608005F0675 /* WebPDecoder.xcframework in Embed Frameworks */,
+				22BD8E1825408605005F0675 /* WebPDemux.xcframework in Embed Frameworks */,
+				22BD8E242540860E005F0675 /* GiphyUISDK.xcframework in Embed Frameworks */,
+				22BD8E202540860B005F0675 /* WebP.xcframework in Embed Frameworks */,
+				22BD8E1325408601005F0675 /* WebPMux.xcframework in Embed Frameworks */,
+				22BD8E2625408610005F0675 /* GiphyCoreSDK.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXContainerItemProxy section */
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0E1D6421C2B509942F143E9A /* Pods-GiphySDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GiphySDK.release.xcconfig"; path = "Target Support Files/Pods-GiphySDK/Pods-GiphySDK.release.xcconfig"; sourceTree = "<group>"; };
 		222681D8253F48CA00CA21FA /* GiphyWrappers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiphyWrappers.swift; sourceTree = "<group>"; };
-		22882E0A2540148D0005E6BD /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		22BB8BDA253EF02000A52F9C /* GiphySDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GiphySDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		22BB8BDD253EF02000A52F9C /* GiphySDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GiphySDK.h; sourceTree = "<group>"; };
 		22BB8BDE253EF02000A52F9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		22BB8BE3253EF02000A52F9C /* GiphySDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GiphySDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		22BB8BE8253EF02000A52F9C /* GiphySDKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiphySDKTests.swift; sourceTree = "<group>"; };
-		22BB8BEA253EF02000A52F9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22BD8DD425407D3D005F0675 /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Package.swift; path = ../Package.swift; sourceTree = "<group>"; };
+		22BD8DE9254085D6005F0675 /* WebPMux.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebPMux.framework; sourceTree = "<group>"; };
+		22BD8DEA254085D6005F0675 /* WebP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebP.framework; sourceTree = "<group>"; };
+		22BD8DEB254085D6005F0675 /* WebPDecoder.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebPDecoder.framework; sourceTree = "<group>"; };
+		22BD8DED254085D6005F0675 /* WebPMux.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebPMux.framework; sourceTree = "<group>"; };
+		22BD8DEE254085D6005F0675 /* WebP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebP.framework; sourceTree = "<group>"; };
+		22BD8DEF254085D6005F0675 /* WebPDecoder.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebPDecoder.framework; sourceTree = "<group>"; };
+		22BD8DF0254085D6005F0675 /* WebPDemux.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebPDemux.framework; sourceTree = "<group>"; };
+		22BD8DF1254085D6005F0675 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		22BD8DF3254085D6005F0675 /* WebPMux.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebPMux.framework; sourceTree = "<group>"; };
+		22BD8DF4254085D6005F0675 /* WebP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebP.framework; sourceTree = "<group>"; };
+		22BD8DF5254085D6005F0675 /* WebPDecoder.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebPDecoder.framework; sourceTree = "<group>"; };
+		22BD8DF6254085D6005F0675 /* WebPDemux.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebPDemux.framework; sourceTree = "<group>"; };
+		22BD8DF7254085D6005F0675 /* WebPDemux.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebPDemux.framework; sourceTree = "<group>"; };
+		22BD8DF8254085D6005F0675 /* WebPMux.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = WebPMux.xcframework; sourceTree = "<group>"; };
+		22BD8DF9254085D6005F0675 /* WebPDecoder.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = WebPDecoder.xcframework; sourceTree = "<group>"; };
+		22BD8DFA254085D6005F0675 /* WebPDemux.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = WebPDemux.xcframework; sourceTree = "<group>"; };
+		22BD8DFB254085D6005F0675 /* WebP.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = WebP.xcframework; sourceTree = "<group>"; };
+		22BD8DFC254085D6005F0675 /* GiphyCoreSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GiphyCoreSDK.xcframework; sourceTree = "<group>"; };
+		22BD8DFD254085D6005F0675 /* GiphyUISDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GiphyUISDK.xcframework; sourceTree = "<group>"; };
 		43CBE73C6327C99C615CC149 /* Pods-Giphy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Giphy.debug.xcconfig"; path = "Target Support Files/Pods-Giphy/Pods-Giphy.debug.xcconfig"; sourceTree = "<group>"; };
 		589DE54B5117BC84CDDA0C84 /* Pods-Giphy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Giphy.release.xcconfig"; path = "Target Support Files/Pods-Giphy/Pods-Giphy.release.xcconfig"; sourceTree = "<group>"; };
-		5FA92B23E52A4C9740955508 /* Pods_Giphy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Giphy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E7A050854892B1646B07772 /* Pods-GiphySDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GiphySDK.debug.xcconfig"; path = "Target Support Files/Pods-GiphySDK/Pods-GiphySDK.debug.xcconfig"; sourceTree = "<group>"; };
-		E85F04AB5612B8670CE5C2F0 /* Pods_GiphySDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GiphySDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,15 +82,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7ACF6F7129C4ADEAF2046EF /* Pods_GiphySDK.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		22BB8BE0253EF02000A52F9C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				22BB8BE4253EF02000A52F9C /* GiphySDK.framework in Frameworks */,
+				22BD8E1225408601005F0675 /* WebPMux.xcframework in Frameworks */,
+				22BD8E232540860E005F0675 /* GiphyUISDK.xcframework in Frameworks */,
+				22BD8E1725408605005F0675 /* WebPDemux.xcframework in Frameworks */,
+				22BD8E1F2540860B005F0675 /* WebP.xcframework in Frameworks */,
+				22BD8E03254085D6005F0675 /* WebPDecoder.framework in Frameworks */,
+				22BD8E09254085D6005F0675 /* WebPDemux.framework in Frameworks */,
+				22BD8E1B25408608005F0675 /* WebPDecoder.xcframework in Frameworks */,
+				22BD8DFE254085D6005F0675 /* WebPMux.framework in Frameworks */,
+				22BD8E2525408610005F0675 /* GiphyCoreSDK.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,9 +111,9 @@
 		22BB8BD0253EF02000A52F9C = {
 			isa = PBXGroup;
 			children = (
-				22882E0A2540148D0005E6BD /* Package.swift */,
+				22BD8DE7254085D6005F0675 /* Frameworks */,
+				22BD8DD425407D3D005F0675 /* Package.swift */,
 				22BB8BDC253EF02000A52F9C /* GiphySDK */,
-				22BB8BE7253EF02000A52F9C /* GiphySDKTests */,
 				22BB8BDB253EF02000A52F9C /* Products */,
 				1D58A606C2700FB988241462 /* Pods */,
 				88C5D90191127196F1CB4C46 /* Frameworks */,
@@ -88,7 +124,6 @@
 			isa = PBXGroup;
 			children = (
 				22BB8BDA253EF02000A52F9C /* GiphySDK.framework */,
-				22BB8BE3253EF02000A52F9C /* GiphySDKTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,20 +138,60 @@
 			path = GiphySDK;
 			sourceTree = "<group>";
 		};
-		22BB8BE7253EF02000A52F9C /* GiphySDKTests */ = {
+		22BD8DE7254085D6005F0675 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				22BB8BE8253EF02000A52F9C /* GiphySDKTests.swift */,
-				22BB8BEA253EF02000A52F9C /* Info.plist */,
+				22BD8DE8254085D6005F0675 /* libwebp-1.1.0-ios-framework */,
+				22BD8DF8254085D6005F0675 /* WebPMux.xcframework */,
+				22BD8DF9254085D6005F0675 /* WebPDecoder.xcframework */,
+				22BD8DFA254085D6005F0675 /* WebPDemux.xcframework */,
+				22BD8DFB254085D6005F0675 /* WebP.xcframework */,
+				22BD8DFC254085D6005F0675 /* GiphyCoreSDK.xcframework */,
+				22BD8DFD254085D6005F0675 /* GiphyUISDK.xcframework */,
 			);
-			path = GiphySDKTests;
+			name = Frameworks;
+			path = ../GiphySPM/Sources/Frameworks;
+			sourceTree = "<group>";
+		};
+		22BD8DE8254085D6005F0675 /* libwebp-1.1.0-ios-framework */ = {
+			isa = PBXGroup;
+			children = (
+				22BD8DE9254085D6005F0675 /* WebPMux.framework */,
+				22BD8DEA254085D6005F0675 /* WebP.framework */,
+				22BD8DEB254085D6005F0675 /* WebPDecoder.framework */,
+				22BD8DEC254085D6005F0675 /* ios */,
+				22BD8DF1254085D6005F0675 /* README */,
+				22BD8DF2254085D6005F0675 /* simulator */,
+				22BD8DF7254085D6005F0675 /* WebPDemux.framework */,
+			);
+			path = "libwebp-1.1.0-ios-framework";
+			sourceTree = "<group>";
+		};
+		22BD8DEC254085D6005F0675 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				22BD8DED254085D6005F0675 /* WebPMux.framework */,
+				22BD8DEE254085D6005F0675 /* WebP.framework */,
+				22BD8DEF254085D6005F0675 /* WebPDecoder.framework */,
+				22BD8DF0254085D6005F0675 /* WebPDemux.framework */,
+			);
+			path = ios;
+			sourceTree = "<group>";
+		};
+		22BD8DF2254085D6005F0675 /* simulator */ = {
+			isa = PBXGroup;
+			children = (
+				22BD8DF3254085D6005F0675 /* WebPMux.framework */,
+				22BD8DF4254085D6005F0675 /* WebP.framework */,
+				22BD8DF5254085D6005F0675 /* WebPDecoder.framework */,
+				22BD8DF6254085D6005F0675 /* WebPDemux.framework */,
+			);
+			path = simulator;
 			sourceTree = "<group>";
 		};
 		88C5D90191127196F1CB4C46 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E85F04AB5612B8670CE5C2F0 /* Pods_GiphySDK.framework */,
-				5FA92B23E52A4C9740955508 /* Pods_Giphy.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -144,6 +219,7 @@
 				22BB8BD6253EF02000A52F9C /* Sources */,
 				22BB8BD7253EF02000A52F9C /* Frameworks */,
 				22BB8BD8253EF02000A52F9C /* Resources */,
+				22BD8E1425408601005F0675 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -153,24 +229,6 @@
 			productName = GiphySDK;
 			productReference = 22BB8BDA253EF02000A52F9C /* GiphySDK.framework */;
 			productType = "com.apple.product-type.framework";
-		};
-		22BB8BE2253EF02000A52F9C /* GiphySDKTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 22BB8BF1253EF02000A52F9C /* Build configuration list for PBXNativeTarget "GiphySDKTests" */;
-			buildPhases = (
-				22BB8BDF253EF02000A52F9C /* Sources */,
-				22BB8BE0253EF02000A52F9C /* Frameworks */,
-				22BB8BE1253EF02000A52F9C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				22BB8BE6253EF02000A52F9C /* PBXTargetDependency */,
-			);
-			name = GiphySDKTests;
-			productName = GiphySDKTests;
-			productReference = 22BB8BE3253EF02000A52F9C /* GiphySDKTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -184,9 +242,6 @@
 					22BB8BD9253EF02000A52F9C = {
 						CreatedOnToolsVersion = 12.0.1;
 						LastSwiftMigration = 1200;
-					};
-					22BB8BE2253EF02000A52F9C = {
-						CreatedOnToolsVersion = 12.0.1;
 					};
 				};
 			};
@@ -204,7 +259,6 @@
 			projectRoot = "";
 			targets = (
 				22BB8BD9253EF02000A52F9C /* GiphySDK */,
-				22BB8BE2253EF02000A52F9C /* GiphySDKTests */,
 			);
 		};
 /* End PBXProject section */
@@ -214,13 +268,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		22BB8BE1253EF02000A52F9C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				22BD8E05254085D6005F0675 /* README in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,23 +308,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		22BB8BDF253EF02000A52F9C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				22BB8BE9253EF02000A52F9C /* GiphySDKTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		22BB8BE6253EF02000A52F9C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 22BB8BD9253EF02000A52F9C /* GiphySDK */;
-			targetProxy = 22BB8BE5253EF02000A52F9C /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		22BB8BEC253EF02000A52F9C /* Debug */ = {
@@ -458,44 +490,6 @@
 			};
 			name = Release;
 		};
-		22BB8BF2253EF02000A52F9C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SPANKN7XYM;
-				INFOPLIST_FILE = GiphySDKTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Core-se.GiphySDKTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		22BB8BF3253EF02000A52F9C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SPANKN7XYM;
-				INFOPLIST_FILE = GiphySDKTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Core-se.GiphySDKTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -513,15 +507,6 @@
 			buildConfigurations = (
 				22BB8BEF253EF02000A52F9C /* Debug */,
 				22BB8BF0253EF02000A52F9C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		22BB8BF1253EF02000A52F9C /* Build configuration list for PBXNativeTarget "GiphySDKTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				22BB8BF2253EF02000A52F9C /* Debug */,
-				22BB8BF3253EF02000A52F9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
